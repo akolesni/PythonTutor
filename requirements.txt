@@ -1,4 +1,5 @@
 jinja2==3.1.2
 pydantic==1.10.9
 pytest~=7.4.0
+redbird==0.7.1
 rocketry==2.5.1
