@@ -1,6 +1,5 @@
 import os
 import os.path
-from pathlib import Path
 
 import utilities
 
@@ -27,4 +26,5 @@ def test_listdir_check_file_extensions():
 
 def test_os():
     assert "nt" == os.name
-    print(Path(os.environ["HOME"]))
+    for e in os.environ["PATH"].split(";"):
+        print(e)
